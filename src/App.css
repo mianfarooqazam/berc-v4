@@ -3,6 +3,7 @@
     --black: #000;
     --light: #fff;
     --cyan:  #aedee0;
+    --green:#E1FEC7;
     --dcyan: #141b1b;
     --dsalmon: #1e130e;
 }
@@ -44,7 +45,7 @@ body[theme="cyan"] .section {
 }
 
 body[theme="salmon"] {
-    background-color: var(--salmon);  
+    background-color: var(--green);  
 }
 
 body[theme="salmon"] .section {

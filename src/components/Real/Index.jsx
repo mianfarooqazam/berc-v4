@@ -59,7 +59,7 @@ function Real() {
               className="text1 font-[SansitaReg] text-[5vh] leading-[6vh]
                     sm:text-[15vh] sm:leading-[18vh]"
             >
-              <h1 className=" text-white">12 Years </h1>
+              <h1 className="  text-blue-500">12 Years </h1>
               <h1 className=""> Experience</h1>
             </div>
 
@@ -98,7 +98,7 @@ function Real() {
                 We’re on a mission to make a lasting impact by creating
                 sustainable solutions and  stronger organizations along the way
               </h3>
-              <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-white ">
+              <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-blue-500 ">
                 1000 +
               </h1>
               <h3 className=" text-[2vh] sm:text-[5vh] font-semibold sm:leading-[7vh]">
@@ -160,7 +160,7 @@ function Real() {
               >
                 Our  team is strengthened by countless positive reviews, showcasing the power of our unique experiences
               </h3>
-              <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-white">
+              <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none  text-blue-500">
                 600 +
               </h1>
               <h3 className="text-[3.5vh] whitespace-nowrap sm:text-[6vh] font-semibold sm:leading-[6vh]">
@@ -202,7 +202,7 @@ function Real() {
               />
             </div>
             <div className="w-[60%] text-center font-[SansitaReg] relative">
-              <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-white">
+              <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none  text-blue-500">
                 3+
               </h1>
               <h3 className="text-[3.1vh] leading-[3.4vh] sm:text-[6vh] font-semibold sm:leading-[8vh]">

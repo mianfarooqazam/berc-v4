@@ -10,6 +10,7 @@ import Real from './components/Real/Index'
 import Team from './components/Team/Index'
 import LocomotiveScroll from 'locomotive-scroll';
 import Footer from './components/Footer/Index';
+import intro from './assets/video/intro.gif'
 
 function App() {
   const scrollRef = useRef(null);
