@@ -1,4 +1,4 @@
-import video from '../../assets/video/1ENIoa5sjq.mp4'
+import video from '../../assets/video/intro.mp4'
 import Row from '../Row'
 import {useEffect, useState, useRef} from 'react';
 import {motion, useScroll, useMotionValueEvent } from 'framer-motion';
