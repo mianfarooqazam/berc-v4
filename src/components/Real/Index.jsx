@@ -56,14 +56,14 @@ function Real() {
                 justify-center h-screen flex-shrink-0 "
           >
             <div
-              className="text1 font-[SansitaReg] text-[7vh] leading-[8vh]
+              className="text1 font-[SansitaReg] text-[5vh] leading-[6vh]
                     sm:text-[15vh] sm:leading-[18vh]"
             >
-              {/* <h1 className="">
-                        Real Talk,    
-                    </h1> */}
-              <h1 className="">Real Impact</h1>
+              <h1 className=" text-white">12 Years </h1>
+              <h1 className=""> Experience</h1>
             </div>
+
+            
             <div
               className="image absolute w-[20vh] h-[20vh] sm:w-[45vh] sm:h-[45vh] -translate-y-2/5
                     top-1/2 sm:-translate-y-1/2 translate-x-1/2
@@ -95,15 +95,14 @@ function Real() {
                         tracking-tight text-[2.2vh] sm:absolute top-0 left-0 z-[3]  -translate-y-2/3 
                         sm:-translate-y-1/2 -translate-x-1/3"
               >
-                We’re on a mission to impact as many lives as possible and build
-                a better company while we do it. Here’s our progress.
+                We’re on a mission to make a lasting impact by creating
+                sustainable solutions and  stronger organizations along the way
               </h3>
               <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-white ">
-                12 Years
+                1000 +
               </h1>
               <h3 className=" text-[2vh] sm:text-[5vh] font-semibold sm:leading-[7vh]">
-                Real people — real lives — we have built products and solutions
-                for.
+                People Trained
               </h3>
             </div>
             <div
@@ -159,11 +158,10 @@ function Real() {
                         sm:text-[2.5vh] absolute sm:top-0 sm:left-0 -translate-x-1/2 -translate-y-[30vh] z-[3] 
                         sm:-translate-y-1/2 sm:-translate-x-1/3"
               >
-                Our team is global and diverse, because our individual
-                experiences make us stronger.
+                Our  team is strengthened by countless positive reviews, showcasing the power of our unique experiences
               </h3>
               <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-white">
-                1000 +
+                600 +
               </h1>
               <h3 className="text-[3.5vh] whitespace-nowrap sm:text-[6vh] font-semibold sm:leading-[6vh]">
                 Positive Reviews
@@ -205,10 +203,10 @@ function Real() {
             </div>
             <div className="w-[60%] text-center font-[SansitaReg] relative">
               <h1 className=" font-semibold text-[10vh] sm:text-[20vh] leading-none text-white">
-                500+
+                3+
               </h1>
               <h3 className="text-[3.1vh] leading-[3.4vh] sm:text-[6vh] font-semibold sm:leading-[8vh]">
-               Positive Reviews <br />
+                International Clients <br />
               </h3>
             </div>
             <div

@@ -182,7 +182,7 @@ function Home() {
                     className=' heading absolute  top-[12%] sm:top-[7%] left-1/2 
                     -translate-x-1/2 w-72'
                 >
-                    <h2 className='toptext text-[2.2vh] font-[Sansita] tracking-wide font-medium text-center'>Crafting a new paradigm of healthcare, one that is</h2>
+                    <h2 className='toptext text-[2.2vh] font-[Sansita] tracking-wide font-medium text-center'>Crafting a new paradigm in Buildings Energy</h2>
                 </div>
 
                 <div 

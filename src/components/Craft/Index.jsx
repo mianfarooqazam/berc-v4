@@ -96,9 +96,11 @@ function Craft() {
           for excellence at every step, contributing to the creation of
           energy-efficient, sustainable, and resilient buildings nationwide.
         </p>
-        <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">
-          We Craft Human-Centric Health Software
+        
+        <h1 className="texthead font-[SansitaReg] text-[4vh] leading-[5vh] sm:text-[8vh] sm:leading-[10vh] mt-10 mb-10">
+          Sustainable Building Solutions Aligned with SDGs & ECBC
         </h1>
+
         {/* button */}
         <Button bgColor="bg-none" text="OUR SOLUTIONS" />
       </div>
