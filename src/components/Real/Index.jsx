@@ -1,8 +1,4 @@
-import img1 from "../../assets/images/real4.jpg";
-import img2 from "../../assets/images/real2.jpg";
-import img3 from "../../assets/images/real3.jpg";
-import img4 from "../../assets/images/real1.jpg";
-import img5 from "../../assets/images/real5.jpg";
+
 import icon1 from "../../assets/images/icon1.png";
 import icon2 from "../../assets/images/icon2.png";
 import icon3 from "../../assets/images/icon3.png";
@@ -70,7 +66,7 @@ function Real() {
                     right-0 "
             >
               <img
-                src={img1}
+                src={img6}
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
@@ -85,7 +81,7 @@ function Real() {
                     top-10 -translate-y-1/2 right-1/6"
             >
               <img
-                src={img2}
+                src={img6}
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
@@ -110,7 +106,7 @@ function Real() {
                     sm:top-2/3 sm:left-1/4 -translate-x-1/2"
             >
               <img
-                src={img4}
+                src={img6}
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
@@ -120,7 +116,7 @@ function Real() {
                     translate-y-[20vh]"
             >
               <img
-                src={img3}
+                src={img6}
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
@@ -130,7 +126,7 @@ function Real() {
                     sm:right-0 "
             >
               <img
-                src={img5}
+                src={img6}
                 className="w-full h-full object-contain rounded-full"
               />
             </div>
