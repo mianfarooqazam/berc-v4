@@ -14,11 +14,11 @@ import { gsap } from "gsap";
 import { Power4} from 'gsap/gsap-core';
 
 const data = [
-    {key: 1, title: "Dr. Rick McCartney", role: "CEO", img: img1},
-    {key: 2, title: "Chris Koha", role: "COO", img: img2},
-    {key: 3, title: "Caroline Nieto", role: "Chief Product Officer", img: img3},
-    {key: 4, title: "Victor Albertos", role: "CTO", img: img4},
-    {key: 5, title: "Dr. Jana Hapfelmeier", role: "Chief Innovation Officer", img: img5},
+    {key: 1, title: "Dr.  Naveed Ahmad", role: "Director", img: img1},
+    {key: 2, title: "Dr. Fakhr e Alam", role: "Team Lead", img: img2},
+    {key: 3, title: "Engr. Fazl e Yazdan", role: "Team Lead", img: img3},
+    {key: 4, title: "Fouzia Rafi", role: "Research & Program Analyst", img: img4},
+    {key: 5, title: "Maidah Arshad", role: "Communication and Outreach Expert", img: img5},
     {key: 6, title: "Michael Robin", role: "VP of Marketing", img: img6},
     {key: 7, title: "Adrian Rubio", role: "VP of Engineering", img: img7},
     {key: 8, title: "Cy Serrano", role: "VP of Product", img: img8},
