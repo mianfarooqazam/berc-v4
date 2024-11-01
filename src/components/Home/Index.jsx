@@ -241,7 +241,7 @@ function Home() {
           className="marqueecontainer w-full h-screen 
                 relative overflow-hidden "
         >
-          {/* /* top Heading div */}
+          {/* top Heading div */}
           <div
             className=" heading absolute  top-[12%] sm:top-[7%] left-1/2 
                     -translate-x-1/2 w-72"
@@ -252,15 +252,17 @@ function Home() {
           </div>
 
           <div
-            className="slidesm absolute scale-[5]  top-1/2 left-1/2
+            className="slidesm absolute scale-[5] top-1/2 left-1/2
                     -translate-x-1/2 -translate-y-1/2 w-[90%]"
           >
-            <div className="row">
-              <Row translateClass="-translate-x-1/2" direction="lft" />
-              <Row translateClass="-translate-x-2/3" direction="rgt" />
-              <Row translateClass="-translate-x-1/4" direction="lft" />
-              <Row translateClass="-translate-x-1/3" direction="rgt" />
-            </div>
+            <iframe 
+            width="100%"
+            height="500" 
+            src="https://www.youtube.com/embed/JZ4kNELEfKg?si=wXvFD2QM7WsYPhIo" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen
+          ></iframe>
           </div>
         </div>
       </div>
