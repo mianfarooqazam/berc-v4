@@ -1,6 +1,6 @@
 import Card from "../Card";
 import Button from "../Button";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -9,49 +9,7 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
 
 function Craft() {
-  // const [isMobile, setIsMobile] = useState(false);
   const container = useRef(null);
-  const textRef = useRef();
-
-  // useEffect(() => {
-  //     const handleResize = () => {
-  //       setIsMobile(window.innerWidth <= 768);
-  //     };
-
-  //     // Attach the event listener
-  //     window.addEventListener("resize", handleResize);
-
-  //     // Clean up the event listener when the component unmounts
-  //     return () => {
-  //       window.removeEventListener("resize", handleResize);
-  //     };
-  //   }, [isMobile]);
-
-  useEffect(() => {
-    var clutter = "";
-    const para = document.querySelector(".texthead");
-    const characters = para.textContent.split("");
-    characters.forEach(function (e) {
-      if (e === " ") clutter += `<span>&nbsp;</span>`;
-      clutter += `<span>${e}</span>`;
-    });
-    para.innerHTML = clutter;
-    gsap.set(".texthead span", { display: "inline-block" });
-    const tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".ltext",
-        start: "top 100%",
-        end: "bottom 50%",
-        scrub: 0.5,
-      },
-    });
-    tl.from(".texthead span", {
-      y: 100,
-      opacity: 0,
-      duration: 0.5,
-      stagger: 0.1,
-    });
-  }, []);
 
   useGSAP(() => {
     let mm = gsap.matchMedia();
@@ -96,8 +54,7 @@ function Craft() {
           for excellence at every step, contributing to the creation of
           energy-efficient, sustainable, and resilient buildings nationwide.
         </p>
-        
-        <h1 className="texthead font-[SansitaReg] text-[4vh] leading-[5vh] sm:text-[8vh] sm:leading-[10vh] mt-10 mb-10">
+        <h1 className="texthead font-[SansitaReg] text-[5vh] leading-[6vh] sm:text-[9.8vh] sm:leading-[12vh] mt-10 mb-10">
           Sustainable Building Solutions Aligned with SDGs & ECBC
         </h1>
 
@@ -106,7 +63,7 @@ function Craft() {
       </div>
       <div
         ref={container}
-        className="right cards sm:w-1/2  flex items-center justify-center"
+        className="right cards sm:w-1/2 flex items-center justify-center"
       >
         <Card />
       </div>

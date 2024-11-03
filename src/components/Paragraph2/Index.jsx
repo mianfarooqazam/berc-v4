@@ -1,52 +1,37 @@
-import img1 from '../../assets/images/review2.jpg'
-import { useEffect } from 'react';
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Img1 from '../../assets/images/gallery/img1.jpeg';
+import Img2 from '../../assets/images/gallery/img2.jpeg';
+import Img3 from '../../assets/images/gallery/img3.jpeg';
+import Img5 from '../../assets/images/gallery/img5.jpeg';
+import Img6 from '../../assets/images/gallery/img6.jpeg';
+import Img7 from '../../assets/images/gallery/img7.jpeg';
+import Img8 from '../../assets/images/gallery/img8.jpeg';
+import Img9 from '../../assets/images/gallery/img9.jpeg';
+import Img11 from '../../assets/images/gallery/img11.jpeg';
+import Img12 from '../../assets/images/gallery/img12.jpeg';
+import Img13 from '../../assets/images/gallery/img13.jpeg';
+import Img14 from '../../assets/images/gallery/img14.jpeg';
 
-gsap.registerPlugin(ScrollTrigger);
+const images = [
+  Img14, Img13, Img12, Img11, Img1, Img2, Img3, Img5, Img6, Img7, Img8, Img9
+];
 
-
-
-function Para2() {
-    useEffect(() => {
-        var clutter = "";
-        const para = document.querySelector(".textpara2")
-        const characters = para.textContent.split("")
-        characters.forEach(function(e) {
-           
-            clutter += `<span>${e}</span>`
-        })
-        para.innerHTML = clutter;   
-        gsap.set(".textpara2 span", {opacity: .1})
-        gsap.to(".textpara2 span", {
-            scrollTrigger: {
-                trigger: ".para2",
-                start: "top 60%",
-                end: "bottom 90%",
-                scrub: 1,
-            },
-            opacity: 1, 
-            stagger: .03,   
-        })
-    },[]);
+const Gallery = () => {
   return (
-    <div data-color="white" className="para2 section w-full flex items-center mt-32 px-8
-    justify-center -translate-y-1/5 ">
-        <div className="text sm:w-[80%] flex flex-col items-center sm:items-end justify-center ">
-            <div className='hidden w-[40%] sm:flex items-center justify-center mb-12'>
-                <hr className='bg-zinc-400 w-[20%] h-[.3vh]' />
-            </div>    
-            <h3 className='textpara2 sm:w-[40%] text-purple-600 font-[Sansita] text-[2.4vh] sm:text-[3.5vh] font-medium text-center tracking-wide leading-[5vh] mb-10'> Working with Significo and their recommendation service has been a game-changer for our occupational prevention efforts. Our customers are extremely satisfied with the tool&apos;s impressive technical capabilities and data-driven approach. But what truly sets it apart is the intuitive and modern user experience it offers, making it a breeze for our clients to navigate. By leveraging this service, our customers have successfully tackled presenteeism and absenteeism, making a significant impact on their workforce&apos;s well-being.</h3>
-            <div className="pers w-[40%] flex flex-col items-center justify-center gap-2">
-                <div className="image w-24 h-24 overflow-hidden rounded-full ">
-                    <img src={img1} />
-                </div>
-                <h1 className='text-[2.8vh] sm:text-[3.8vh] font-medium'>Emek Altun</h1>
-                <h3 className='text-zinc-500 text-[2.4vh] whitespace-nowrap'>CEO @ Vitaservices</h3>
-            </div>
-        </div>  
-    </div>
-  )
-}
+    <section 
+      id="gallery" 
+      className="relative flex flex-col items-center justify-center p-10"
+      style={{ backgroundColor: "#fff", minHeight: 'auto' }}
+    >
+      <h1 className="relative text-4xl font-semibold text-black mb-8">See Us Through Lens</h1>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 w-full">
+        {images.map((img, index) => (
+          <div key={index} className="overflow-hidden rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
+            <img src={img} alt={`Gallery image ${index + 1}`} className="w-full h-full object-cover" loading="lazy"/>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
-export default Para2
+export default Gallery;
